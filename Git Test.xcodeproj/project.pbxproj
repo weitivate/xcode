@@ -21,6 +21,7 @@
 		1FF266BF19777831009C876E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF266A119777831009C876E /* UIKit.framework */; };
 		1FF266C719777831009C876E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF266C519777831009C876E /* InfoPlist.strings */; };
 		1FF266C919777831009C876E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF266C819777831009C876E /* Git_TestTests.m */; };
+		1FF266D419777BC8009C876E /* DWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF266D319777BC8009C876E /* DWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1FF266C419777831009C876E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1FF266C619777831009C876E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FF266C819777831009C876E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		1FF266D219777BC8009C876E /* DWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTest.h; sourceTree = "<group>"; };
+		1FF266D319777BC8009C876E /* DWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				1FF266B319777831009C876E /* DWViewController.m */,
 				1FF266B519777831009C876E /* Images.xcassets */,
 				1FF266A419777831009C876E /* Supporting Files */,
+				1FF266D219777BC8009C876E /* DWTest.h */,
+				1FF266D319777BC8009C876E /* DWTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				1FF266AA19777831009C876E /* main.m in Sources */,
 				1FF266B419777831009C876E /* DWViewController.m in Sources */,
+				1FF266D419777BC8009C876E /* DWTest.m in Sources */,
 				1FF266AE19777831009C876E /* DWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
